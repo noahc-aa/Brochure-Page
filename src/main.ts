@@ -3,7 +3,7 @@ import './style.css'
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="top-strip">
     <div class="container top-strip-content">
-      <h1 class="text-3xl font-bold">Soteria Inc</h1>
+      <h1 class="text-3xl font-bold">Salus Inc</h1>
       <span class="text-lg font-semibold underline">About Us</span>
       <span class="text-lg font-semibold underline">The Product</span>
       <span class="text-lg font-semibold underline">Reviews</span>
@@ -11,7 +11,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </div>
 
-  <div class="container px-6 py-40 text-left">
+  <div class="container px-6 py-40 text-right">
     <h1 class="text-6xl font-bold">Praeventio</h1>
   </div>
 `

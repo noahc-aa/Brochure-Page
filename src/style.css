@@ -28,7 +28,7 @@ body {
 
 .top-strip {
 	background-color: var(--colour-blue-5);
-	width: 100%;
+	width: 100px;
 	padding: 0;
 	margin: 0;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);

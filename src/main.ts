@@ -5,15 +5,15 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
   <style>
     :root {
-      --colour-mint-500: #3EB489;
-      --colour-mint-600: #2E8B57;
-      --colour-mint-700: #006400;
-      --colour-mint-800: #004d40;
-      --colour-mint-900: #00332c;
+      --colour-blue-1: #d6e4f5;
+      --colour-blue-2: #a4c7df;
+      --colour-blue-3: #7bb7d1;
+      --colour-blue-4: #4aa0c4;
+      --colour-blue-5: #1d3a6d;
     }
   </style>
 
-  <div style="background-color: var(--colour-mint-500); color: white; padding: 20px; text-align: center;">
-    <p>This is a test paragraph with a mint background.</p>
+  <div style="background-color: radial-gradient(circle, var(--colour-blue-1), var(--colour-blue-2) var(--colour-blue-3) var(--colour-blue-4) var(--colour-blue-5)); color: white; padding: 20px; text-align: center;">
+    <p>This is a test paragraph with a blue gradient background.</p>
   </div>
 `

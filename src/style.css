@@ -28,8 +28,19 @@ body {
 
 .top-strip {
 	background-color: var(--colour-blue-5);
-	width: 100px;
-	padding: 0;
+	width: 100%;
+	padding: 1rem 0;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.top-strip-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1.5rem;
+}
+
+.top-strip-content h1,
+.top-strip-content span {
 	margin: 0;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }

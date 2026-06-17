@@ -2,10 +2,15 @@ import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="top-strip">
-    <div class="container px-6 py-4 text-center">
-      <h1 class="text-2xl font-bold">Soteria Inc</h1>
+    <div class="container top-strip-content">
+      <h1 class="text-3xl font-bold">Soteria Inc</h1>
+      <span class="text-lg font-semibold underline">About Us</span>
+      <span class="text-lg font-semibold underline">The Product</span>
+      <span class="text-lg font-semibold underline">Reviews</span>
+      <span class="text-lg font-semibold underline">Contact Us</span>
     </div>
   </div>
+
   <div class="container px-6 py-40 text-left">
     <h1 class="text-6xl font-bold">Praeventio</h1>
   </div>

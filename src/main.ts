@@ -11,7 +11,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </div>
 
-  <div class="container px-6 py-40 text-right">
+  <div class="container px-6 py-40 text-center">
     <h1 class="text-6xl font-bold">Praeventio</h1>
+    <p class="text-2xl font-semibold">Cutting edge technology saving developers hours of painstaking fixing.</p>
   </div>
 `

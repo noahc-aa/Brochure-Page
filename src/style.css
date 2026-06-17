@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+:root {
+	--colour-blue-1: #d6e4f5;
+	--colour-blue-2: #a4c7df;
+	--colour-blue-3: #7bb7d1;
+	--colour-blue-4: #4aa0c4;
+	--colour-blue-5: #1d3a6d;
+}
+
+html, body, #app {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background: radial-gradient(circle at 10% 20%, var(--colour-blue-1) 0%, var(--colour-blue-2) 30%, var(--colour-blue-3) 60%, var(--colour-blue-4) 85%, var(--colour-blue-5) 100%);
+	background-attachment: fixed;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}

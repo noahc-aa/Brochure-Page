@@ -21,7 +21,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
     </div>
     <div class="col-span-1">
-      <h1 class="text-6xl text-center font-bold">Praesidium</h1>
+      <h1 class="text-6xl text-center font-bold">Praesidium AI</h1>
         <h2 class="text-3xl text-center leading-loose font-semibold">'Ship with Confidence, Recover with Certainty'</h2>
     </div>
     <div class="col-span-1">

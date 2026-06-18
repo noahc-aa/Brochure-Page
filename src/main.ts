@@ -16,7 +16,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </div>
 
-  <section class="product container grid grid-cols-[1fr_3fr_1fr] items-center px-6 py-20">  
+  <section class="product container grid grid-cols-[1fr_4fr_1fr] items-center px-6 py-20">  
     <div class="col-span-1">
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
     </div>

@@ -21,8 +21,13 @@ body {
 	background: var(--colour-blue-6);
 	background-attachment: fixed;
 	color: white;
+	font-family: 'Inter', system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Sora', system-ui, sans-serif;
 }
 
 .container {

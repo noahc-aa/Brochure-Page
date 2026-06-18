@@ -7,13 +7,24 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <img src="/saluslogo.png" alt="Salus Inc logo" class="brand-logo" />
         <h1 class="text-3xl font-bold">Salus Inc</h1>
       </div>
-      <nav class="top-strip-nav">
+      <button class="mobile-menu-button" aria-expanded="false" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="top-strip-nav desktop-nav">
         <span class="text-lg font-semibold underline">About Us</span>
         <span class="text-lg font-semibold underline">The Product</span>
         <span class="text-lg font-semibold underline">Reviews</span>
         <span class="text-lg font-semibold underline">Contact Us</span>
       </nav>
     </div>
+    <nav class="mobile-nav-dropdown" aria-hidden="true">
+      <a href="#" class="mobile-nav-link">About Us</a>
+      <a href="#" class="mobile-nav-link">The Product</a>
+      <a href="#" class="mobile-nav-link">Reviews</a>
+      <a href="#" class="mobile-nav-link">Contact Us</a>
+    </nav>
   </div>
 
   <section class="product container grid grid-cols-[1fr_4fr_1fr] items-center px-6 py-20">  
@@ -55,3 +66,20 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </section>
 `
+
+const mobileMenuButton = document.querySelector<HTMLButtonElement>('.mobile-menu-button');
+const mobileNavDropdown = document.querySelector<HTMLElement>('.mobile-nav-dropdown');
+
+mobileMenuButton?.addEventListener('click', () => {
+  const isOpen = mobileNavDropdown?.classList.toggle('open');
+  mobileMenuButton.setAttribute('aria-expanded', String(isOpen));
+  mobileNavDropdown?.setAttribute('aria-hidden', String(!isOpen));
+});
+
+mobileNavDropdown?.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    mobileNavDropdown.classList.remove('open');
+    mobileMenuButton?.setAttribute('aria-expanded', 'false');
+    mobileNavDropdown?.setAttribute('aria-hidden', 'true');
+  });
+});

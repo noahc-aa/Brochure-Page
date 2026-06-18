@@ -29,7 +29,11 @@ body {
 .top-strip {
 	background-color: var(--colour-blue-5);
 	width: 100%;
-	padding: 1rem 0;
+	height: 4rem;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
 	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
@@ -40,8 +44,9 @@ body {
 }
 
 .brand-logo {
-	width: 8rem;
-	height: 8rem;
+	width: auto;
+	height: 4rem;
+	max-height: 100%;
 	object-fit: contain;
 }
 

@@ -20,4 +20,30 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h1 class="text-6xl font-bold">Praesidium</h1>
     <p class="text-2xl font-semibold">'Ship with Confidence, Recover with Certainty'.</p>
   </div>
+
+  <section class="product-split container px-6 py-20">
+    <div class="split-card">
+      <h3 class="text-2xl mt-2 gold-border">Before you push</h3>
+      <h2 class="text-3xl font-bold">Predict</h2>
+      <h3 class="text-2xl font-semibold mt-2">Don't let your next deployment become your next incident</h3>
+      <p class="text-lg mt-4"> Predict maps your entire dependency graph and surfaces everything your change could affect — across services, pipelines, and consumers your test suite doesn't even know about.</p>
+      <ul class="list-disc list-inside mt-4">
+        <li>Identify potential risks before they become incidents</li>
+        <li>Gain insights into your deployment dependencies</li>
+        <li>Enhance your testing strategy with predictive analysis</li>
+      </ul>
+    
+      </div>
+    <div class="split-card">
+      <h3 class="text-2xl mt-2 gold-border">When something slips through</h3>
+      <h2 class="text-3xl font-bold">Trace</h2>
+      <h3 class="text-2xl font-semibold mt-2">When production breaks, every minute counts</h3>
+      <p class="text-lg mt-4">Trace correlates your incident timeline with recent deployments, config changes, and dependency updates to tell you exactly what caused it — in seconds, not hours.</p>
+      <ul class="list-disc list-inside mt-4">
+        <li>Pinpoints the most likely cause from your deployment history</li>
+        <li>Cross-references logs, alerts, and config changes automatically</li>
+        <li>Cuts mean time to resolution dramatically</li>
+      </ul>
+    </div>
+  </section>
 `

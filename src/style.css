@@ -6,7 +6,10 @@
 	--colour-blue-3: #7bb7d1;
 	--colour-blue-4: #4aa0c4;
 	--colour-blue-5: #1d3a6d;
+	--colour-blue-6: #0d1a3a;
 	--colour-gold-5: #d4af37;
+	--colour-offwhite: #f8fafc;
+	--colour-slate: #334155;
 }
 
 html, body, #app {
@@ -15,7 +18,7 @@ html, body, #app {
 }
 
 body {
-	background: radial-gradient(circle at 10% 20%, var(--colour-blue-1) 0%, var(--colour-blue-2) 30%, var(--colour-blue-3) 60%, var(--colour-blue-4) 85%, var(--colour-blue-5) 100%);
+	background: var(--colour-blue-6);
 	background-attachment: fixed;
 	color: white;
 	-webkit-font-smoothing: antialiased;
@@ -72,8 +75,9 @@ body {
 .gold-border {
 	border: 4px solid var(--colour-gold-5);
 	border-radius: 0.25rem;
-	padding: 0.5rem 0.5rem;
+	padding: 0.25rem 0.25rem;
 	display: inline-block;
+	color: var(--colour-gold-5);
 }
 
 .product-split {
@@ -91,6 +95,12 @@ body {
 
 .split-card h2 {
 	margin: 0;
+}
+
+.background-pillar {
+	opacity: 0.25;
+	width: 100%;
+	height: auto;
 }
 
 @media (min-width: 768px) {

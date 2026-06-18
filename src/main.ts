@@ -4,7 +4,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="top-strip">
     <div class="container top-strip-content">
       <div class="brand">
-        <img src="/praeventio_shield_v3.png" alt="Salus Inc logo" class="brand-logo" />
+        <img src="/saluslogo.png" alt="Salus Inc logo" class="brand-logo" />
         <h1 class="text-3xl font-bold">Salus Inc</h1>
       </div>
       <nav class="top-strip-nav">
@@ -16,10 +16,18 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </div>
 
-  <div class="container px-6 py-40 text-center">
-    <h1 class="text-6xl font-bold">Praesidium</h1>
-    <p class="text-2xl font-semibold">'Ship with Confidence, Recover with Certainty'.</p>
-  </div>
+  <section class="product container grid grid-cols-[1fr_3fr_1fr] items-center px-6 py-20">  
+    <div class="col-span-1">
+      <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
+    </div>
+    <div class="col-span-1">
+      <h1 class="text-6xl text-center font-bold">Praesidium</h1>
+        <h2 class="text-3xl text-center leading-loose font-semibold">'Ship with Confidence, Recover with Certainty'</h2>
+    </div>
+    <div class="col-span-1">
+      <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
+    </div>
+  </section>
 
   <section class="product-split container px-6 py-20">
     <div class="split-card">

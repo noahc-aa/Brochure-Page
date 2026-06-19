@@ -32,8 +32,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
     </div>
     <div class="col-span-1">
-      <h1 class="text-6xl text-center font-bold">Praesidium AI</h1>
-        <h2 class="text-3xl text-center leading-loose font-semibold">'Ship with Confidence, Recover with Certainty'</h2>
+      <h1 class="text-6xl text-center font-bold" style="color: white !important;">Praesidium AI</h1>
+        <h2 class="text-3xl text-center leading-loose font-semibold";">'Ship with Confidence, Recover with Certainty'</h2>
     </div>
     <div class="col-span-1">
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
@@ -48,7 +48,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <section class="product-split container px-6 py-10">
     <div class="split-card">
       <h3 class="text-2xl mt-2 gold-border">Before you push</h3>
-      <h2 class="text-3xl font-bold">Predict</h2>
+      <h2 class="text-3xl font-bold" style="color: white;">Predict</h2>
       <h3 class="text-2xl font-semibold mt-2">Don't let your next deployment become your next incident</h3>
       <p class="text-lg mt-4"> Predict maps your entire dependency graph and surfaces everything your change could affect — across services, pipelines, and consumers your test suite doesn't even know about.</p>
       <ul class="list-disc list-inside mt-4">
@@ -60,7 +60,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       </div>
     <div class="split-card">
       <h3 class="text-2xl mt-2 gold-border">When something slips through</h3>
-      <h2 class="text-3xl font-bold">Trace</h2>
+      <h2 class="text-3xl font-bold" style="color: white;">Trace</h2>
       <h3 class="text-2xl font-semibold mt-2">When production breaks, every minute counts</h3>
       <p class="text-lg mt-4">Trace correlates your incident timeline with recent deployments, config changes, and dependency updates to tell you exactly what caused it — in seconds, not hours.</p>
       <ul class="list-disc list-inside mt-4">
@@ -96,11 +96,15 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </section>
 
-  <section class="about-us container px-6 py-20">
-    <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">Who We Are</h2>
-    <h2 class="text-4xl font-bold text-center" style="color: white;">About Us</h2>
-    <p class="text-lg mt-4 text-center">Salus Inc. was built by engineers who got tired of being paged at midnight for incidents that should never have happened. We believe the best incident is the one that never occurs.</p>
-    <p class="text-lg mt-4 text-center">Praeventio is our answer — a deployment intelligence platform that gives software teams the visibility they need to ship with confidence and recover with certainty.</p>
+  <section class="about-us section"
+    <div class="about-us container px-6 py-20">
+      <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">Who We Are</h2>
+      <h2 class="text-4xl font-bold text-center" style="color: white;">About Us</h2>
+      <p class="text-lg mt-4 text-center">Salus Inc. was built by engineers who got tired of being paged at midnight for incidents that should never have happened. We believe the best incident is the one that never occurs.</p>
+      <p class="text-lg mt-4 text-center">Praeventio is our answer — a deployment intelligence platform that gives software teams the visibility they need to ship with confidence and recover with certainty.</p>
+    </div>
+
+    <button class="contact-us button my-8 mx-auto rounded-lg text-2xl font-semibold" style="background-color: var(--colour-blue-5); color: var(--colour-gold-5); font-family: 'Playfair Display'; ">Contact Us</button>
   </section>
 
   <div class="bottom-strip">

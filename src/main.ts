@@ -76,7 +76,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h2 class="text-4xl font-bold text-center" style="color: white;">Reviews</h2>
   </div>
 
-  <section class="product-split container px-6 py-10">
+  <section class="review-split container px-6 py-10">
     <div class="split-card">
       <h3 class="text-2xl mt-2" style="color: var(--colour-gold-5);">"<h2/>
       <h2 class="text-3xl font-normal">Praesidium saved us from a major incident, love it</h2>
@@ -102,6 +102,19 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <p class="text-lg mt-4 text-center">Salus Inc. was built by engineers who got tired of being paged at midnight for incidents that should never have happened. We believe the best incident is the one that never occurs.</p>
     <p class="text-lg mt-4 text-center">Praeventio is our answer — a deployment intelligence platform that gives software teams the visibility they need to ship with confidence and recover with certainty.</p>
   </section>
+
+  <div class="bottom-strip">
+    <div class="container bottom-strip-content">
+      <p class="text-lg font-semibold text-left" style="color: var(--colour-blue-4);">© 2026 Salus Inc. All rights reserved.</p>
+    </div>
+    <div class="container bottom-strip-content">
+      <nav class="bottom-strip-nav">
+        <span class="text-lg font-semibold underline" style="color: var(--colour-blue-4);">@LinkedIn</span>
+        <span class="text-lg font-semibold underline" style="color: var(--colour-blue-4);">@X</span>
+        <span class="text-lg font-semibold underline" style="color: var(--colour-blue-4);">@Instagram</span>
+      </nav>
+    </div>
+  </div>
 `
 
 const mobileMenuButton = document.querySelector<HTMLButtonElement>('.mobile-menu-button');

@@ -27,7 +27,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </nav>
   </div>
 
-  <section class="product container grid grid-cols-[1fr_4fr_1fr] items-center px-6 py-20">  
+  <section class="title container grid grid-cols-[1fr_4fr_1fr] items-center px-6 py-20">  
     <div class="col-span-1">
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
     </div>
@@ -40,7 +40,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </section>
 
-  <section class="product-split container px-6 py-20">
+  <div class="product-header container px-6 py-20">
+    <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">Two Tools, One Solution</h2>
+    <h2 class="text-4xl font-bold text-center" style="color: white;">The Product</h2>
+  </div>
+
+  <section class="product-split container px-6 py-10">
     <div class="split-card">
       <h3 class="text-2xl mt-2 gold-border">Before you push</h3>
       <h2 class="text-3xl font-bold">Predict</h2>
@@ -51,7 +56,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <li>Gain insights into your deployment dependencies</li>
         <li>Enhance your testing strategy with predictive analysis</li>
       </ul>
-    
+
       </div>
     <div class="split-card">
       <h3 class="text-2xl mt-2 gold-border">When something slips through</h3>

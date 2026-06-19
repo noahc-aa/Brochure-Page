@@ -5,7 +5,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div class="container top-strip-content">
       <div class="brand">
         <img src="/saluslogo.png" alt="Salus Inc logo" class="brand-logo" />
-        <h1 class="text-3xl font-bold">Salus Inc</h1>
+        <h1 class="text-3xl font-bold">Salus Inc.</h1>
       </div>
       <button class="mobile-menu-button" aria-expanded="false" aria-label="Open navigation menu">
         <span></span>
@@ -70,6 +70,36 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       </ul>
     </div>
   </section>
+
+  <div class="review-header container px-6 py-20">
+    <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">What Our Customers Say</h2>
+    <h2 class="text-4xl font-bold text-center" style="color: white;">Reviews</h2>
+  </div>
+
+  <section class="product-split container px-6 py-10">
+    <div class="split-card">
+      <h3 class="text-2xl mt-2" style="color: var(--colour-gold-5);">"<h2/>
+      <h2 class="text-3xl font-normal">Praesidium saved us from a major incident, love it</h2>
+      <h3 class="text-2xl font-semibold mt-2" style="color: var(--colour-gold-5);">- Robert, Automated Analytics</h3>
+      </div>
+
+    <div class="split-card">
+      <h3 class="text-2xl mt-2" style="color: var(--colour-gold-5);">"<h2/>
+      <h2 class="text-3xl font-normal">We were able to identify a critical dependency issue before it caused downtime</h2>
+      <h3 class="text-2xl font-semibold mt-2" style="color: var(--colour-gold-5);">- Ashton, Automated Analytics</h3>
+    </div>
+  </section>
+
+  <section class="give-review container px-6 py-20">
+    <div class="full-card">
+      <h3 class="text-2xl font-semibold text-center" style="color: var(--colour-gold-5);">Give us a review</h3>
+    </div>
+  </section>
+
+  <div class="about-us-header container px-6 py-20">
+    <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">Who We Are</h2>
+    <h2 class="text-4xl font-bold text-center" style="color: white;">About Us</h2>
+  </div>
 `
 
 const mobileMenuButton = document.querySelector<HTMLButtonElement>('.mobile-menu-button');

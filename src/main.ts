@@ -13,36 +13,36 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <span></span>
       </button>
       <nav class="top-strip-nav desktop-nav">
-        <span class="text-lg font-semibold underline">About Us</span>
-        <span class="text-lg font-semibold underline">The Product</span>
-        <span class="text-lg font-semibold underline">Reviews</span>
-        <span class="text-lg font-semibold underline">Contact Us</span>
+        <a href="#about-us" class="text-lg font-semibold underline">About Us</a>
+        <a href="#the-product" class="text-lg font-semibold underline">The Product</a>
+        <a href="#reviews" class="text-lg font-semibold underline">Reviews</a>
+        <a href="#about-us" class="text-lg font-semibold underline">Contact Us</a>
       </nav>
     </div>
     <nav class="mobile-nav-dropdown" aria-hidden="true">
-      <a href="#" class="mobile-nav-link">About Us</a>
-      <a href="#" class="mobile-nav-link">The Product</a>
-      <a href="#" class="mobile-nav-link">Reviews</a>
-      <a href="#" class="mobile-nav-link">Contact Us</a>
+      <a href="#about-us" class="mobile-nav-link">About Us</a>
+      <a href="#the-product" class="mobile-nav-link">The Product</a>
+      <a href="#reviews" class="mobile-nav-link">Reviews</a>
+      <a href="#about-us" class="mobile-nav-link">Contact Us</a>
     </nav>
   </div>
 
   <section class="title container grid grid-cols-[1fr_4fr_1fr] items-center px-6 py-20">
-    <div class="col-span-1">
-      <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
+    <div class="col-span-1 self-end">
+      <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar"/>
     </div>
     <div class="col-span-1">
       <h1 class="text-6xl text-center font-bold" style="color: white !important;">Praeventio AI</h1>
         <h2 class="text-4xl text-center leading-loose font-semibold mb-6" style="color: var(--colour-gold-5);">'Ship with Confidence, Recover with Certainty'</h2>
-          <p class="text-2xl text-center leading-loose font-semibold;">The problem? Every deployment is a risk. Most teams only find out something broke after it's already broken</p>
-          <p class="text-2xl text-center leading-loose font-semibold;">The solution? Praeventio maps your blast radius before you push, and finds the root cause when something slips through.</p>
+          <p class="text-lg text-center leading-relaxed font-semibold;">The problem? Every deployment is a risk. Most teams only find out something broke after it's already broken</p>
+          <p class="text-lg text-center leading-relaxed font-semibold;">The solution? Praeventio maps your blast radius before you push, and finds the root cause when something slips through.</p>
     </div>
-    <div class="col-span-1">
+    <div class="col-span-1 self-end">
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
     </div>
   </section>
 
-  <div class="product-header container px-6 py-20">
+  <div id="the-product" class="product-header container px-6 py-20">
     <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">Two Tools, One Solution</h2>
     <h2 class="text-4xl font-bold text-center" style="color: white;">The Product</h2>
   </div>
@@ -73,7 +73,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </section>
 
-  <div class="review-header container px-6 py-20">
+  <div id="reviews" class="review-header container px-6 py-20">
     <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">What Our Customers Say</h2>
     <h2 class="text-4xl font-bold text-center" style="color: white;">Reviews</h2>
   </div>
@@ -98,7 +98,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </section>
 
-  <div class="about-us container px-6 py-20">
+  <div id="about-us" class="container px-6 py-20">
     <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">Who We Are</h2>
     <h2 class="text-4xl font-bold text-center" style="color: white;">About Us</h2>      <p class="text-lg mt-4 text-center">Salus Inc. was built by engineers who got tired of being paged at midnight for incidents that should never have happened. We believe the best incident is the one that never occurs.</p>
     <p class="text-lg mt-4 text-center">Praeventio is our answer — a deployment intelligence platform that gives software teams the visibility they need to ship with confidence and recover with certainty.</p>

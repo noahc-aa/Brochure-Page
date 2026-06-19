@@ -96,10 +96,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
   </section>
 
-  <div class="about-us-header container px-6 py-20">
+  <section class="about-us container px-6 py-20">
     <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold-5);">Who We Are</h2>
     <h2 class="text-4xl font-bold text-center" style="color: white;">About Us</h2>
-  </div>
+    <p class="text-lg mt-4 text-center">Salus Inc. was built by engineers who got tired of being paged at midnight for incidents that should never have happened. We believe the best incident is the one that never occurs.</p>
+    <p class="text-lg mt-4 text-center">Praeventio is our answer — a deployment intelligence platform that gives software teams the visibility they need to ship with confidence and recover with certainty.</p>
+  </section>
 `
 
 const mobileMenuButton = document.querySelector<HTMLButtonElement>('.mobile-menu-button');

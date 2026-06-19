@@ -4,8 +4,8 @@
 	--colour-blue-1: #d6e4f5;
 	--colour-blue-2: #a4c7df;
 	--colour-blue-3: #7bb7d1;
-	--colour-blue-4: #4aa0c4;
-	--colour-blue-5: #19315f;
+	--colour-blue-4: #9aafd4;
+	--colour-blue-5: #162f5c;
 	--colour-blue-6: #0d1a3a;
 	--colour-gold-5: #d4af37;
 	--colour-offwhite: #f8fafc;
@@ -20,7 +20,7 @@ html, body, #app {
 body {
 	background: var(--colour-blue-6);
 	background-attachment: fixed;
-	color: white;
+	color: var(--colour-blue-4);
 	font-family: 'Inter', system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

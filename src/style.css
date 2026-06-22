@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 	max-height: 100%;
 	object-fit: contain;
 }
+
 .top-strip-content {
 	display: flex;
 	align-items: center;
@@ -75,12 +76,22 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+.top-strip-nav.desktop-nav {
+	display: flex;
+	gap: 2rem;
+}
+
 .mobile-menu-button {
 	display: none;
 }
 
 .mobile-nav-dropdown {
 	display: none;
+}
+
+.request-demo {
+	margin: 2rem auto;
+	padding: 1rem 2rem;
 }
 
 .product-header {
@@ -117,20 +128,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .submit-review-container {
 	text-align: center;
+	padding-bottom: 40px;
 	border-bottom: 1px dashed var(--colour-gold);
 }
 
 .submit-review {
 	margin: 2rem auto;
 	padding: 1rem 2rem;
-}
-
-.gold-border {
-	border: 4px solid var(--colour-gold);
-	border-radius: 0.4rem;
-	padding: 0.25rem 0.25rem;
-	display: inline-block;
-	color: var(--colour-gold);
 }
 
 .product-split {

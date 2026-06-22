@@ -20,14 +20,14 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       </nav>
     </div>
     <nav class="mobile-nav-dropdown" aria-hidden="true">
-      <a href="#about-us" class="mobile-nav-link">About Us</a>
-      <a href="#the-product" class="mobile-nav-link">The Product</a>
-      <a href="#reviews" class="mobile-nav-link">Reviews</a>
-      <a href="#about-us" class="mobile-nav-link">Contact Us</a>
+      <a href="#about-us" class="mobile-nav-link" tabindex="-1">About Us</a>
+      <a href="#the-product" class="mobile-nav-link" tabindex="-1">The Product</a>
+      <a href="#reviews" class="mobile-nav-link" tabindex="-1">Reviews</a>
+      <a href="#about-us" class="mobile-nav-link" tabindex="-1">Contact Us</a>
     </nav>
   </div>
 
-  <section class="title container grid grid-cols-[1fr_4fr_1fr] items-center px-6 py-20">
+  <section class="title container grid grid-cols-[1fr_4fr_1fr] items-center px-6 py-10">
     <div class="col-span-1 self-end">
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar"/>
     </div>
@@ -40,6 +40,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <div class="col-span-1 self-end">
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar" />
     </div>
+    <div class="request-demo-button col-span-3 text-center">
+      <button class="request-demo button my-8 mx-auto rounded-lg text-2xl font-semibold" style="background-color: var(--colour-blue-2); color: var(--colour-gold); font-family: 'Playfair Display'; ">Request a Demo</button>
+    </div>
   </section>
 
   <div id="the-product" class="product-header container px-6 py-20">
@@ -47,9 +50,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h2 class="text-4xl font-bold text-center" style="color: white;">The Product</h2>
   </div>
 
-  <section class="product-split container px-6 py-10">
+  <section class="product-split container px-6 py-20">
     <div class="split-card">
-      <h3 class="text-2xl mt-2 gold-border">Before you push</h3>
+      <h3 class="text-2xl mt-2" style="color: var(--colour-gold)">Before you push</h3>
       <h2 class="text-3xl font-bold" style="color: white;">Predict</h2>
       <h3 class="text-2xl font-semibold mt-2">Don't let your next deployment become your next incident</h3>
       <p class="text-lg mt-4"> Predict maps your entire dependency graph and surfaces everything your change could affect — across services, pipelines, and consumers your test suite doesn't even know about.</p>
@@ -61,7 +64,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
       </div>
     <div class="split-card">
-      <h3 class="text-2xl mt-2 gold-border">When something slips through</h3>
+      <h3 class="text-2xl mt-2" style="color: var(--colour-gold)">When something slips through</h3>
       <h2 class="text-3xl font-bold" style="color: white;">Trace</h2>
       <h3 class="text-2xl font-semibold mt-2">When production breaks, every minute counts</h3>
       <p class="text-lg mt-4">Trace correlates your incident timeline with recent deployments, config changes, and dependency updates to tell you exactly what caused it — in seconds, not hours.</p>
@@ -81,14 +84,14 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <section class="review-split container px-6 py-10">
     <div class="split-card">
       <h3 class="text-2xl mt-2" style="color: var(--colour-gold);">"<h2/>
-      <h2 class="text-3xl font-normal">Praeventio saved us from a major incident, love it</h2>
-      <h3 class="text-2xl font-semibold mt-2" style="color: var(--colour-gold);">- Robert, Automated Analytics</h3>
+      <h2 class="text-3xl font-semibold">Praeventio saved us from a major incident, love it</h2>
+      <h3 class="text-2xl font-normal mt-2" style="color: var(--colour-gold);">- Robert, Automated Analytics</h3>
       </div>
 
     <div class="split-card">
       <h3 class="text-2xl mt-2" style="color: var(--colour-gold);">"<h2/>
-      <h2 class="text-3xl font-normal">We were able to identify a critical dependency issue before it caused downtime</h2>
-      <h3 class="text-2xl font-semibold mt-2" style="color: var(--colour-gold);">- Ashton, Automated Analytics</h3>
+      <h2 class="text-3xl font-semibold">We were able to identify a critical dependency issue before it caused downtime</h2>
+      <h3 class="text-2xl font-normal mt-2" style="color: var(--colour-gold);">- Ashton, Automated Analytics</h3>
     </div>
   </section>
 

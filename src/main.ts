@@ -117,8 +117,15 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h2 class="text-4xl font-bold text-center" style="color: white;">About Us</h2>
     <p class="text-lg mt-4 text-center">Salus Inc. was built by engineers who got tired of being paged at midnight for incidents that should never have happened. We believe the best incident is the one that never occurs.</p>
     <p class="text-lg mt-4 text-center">Praeventio is our answer — a deployment intelligence platform that gives software teams the visibility they need to ship with confidence and recover with certainty.</p>
-    <button class="contact-us button my-8 mx-auto rounded-lg text-2xl font-semibold" style="background-color: var(--colour-blue-2); color: var(--colour-gold); font-family: 'Playfair Display'; ">Contact Us</button>
-  </div>
+    </div>
+
+  <div id="contact-us" class="container px-6 py-20">
+    <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold);">Get In Touch</h2>
+    <h2 class="text-4xl font-bold text-center" style="color: white;">Contact Us</h2>
+    <p class="text-lg mt-4 text-center">Email: noahc@salusinc.co.uk</p>
+    <p class="text-lg text-center">Phone Number: 07329 982397</p>
+    <p class="text-lg text-center">LinkedIn: @Salus Inc.</p>
+    </div>
 
     
   <div class="bottom-strip">

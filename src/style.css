@@ -89,6 +89,11 @@ h1, h2, h3, h4, h5, h6 {
 	display: none;
 }
 
+.title {
+	padding-top: 6rem;
+	border-bottom: 1px dashed var(--colour-gold);
+}
+
 .request-demo {
 	margin: 2rem auto;
 	padding: 1rem 2rem;
@@ -97,13 +102,13 @@ h1, h2, h3, h4, h5, h6 {
 .product-header {
 	margin: 0 auto;
 	max-width: 880px;
-	padding-bottom: 1rem;
+	padding-bottom: 4rem;
 }
 
 .review-header {
 	margin: 0 auto;
 	max-width: 880px;
-	padding-bottom: 1rem;
+	padding-bottom: 4rem;
 }
 
 .give-review {
@@ -183,10 +188,6 @@ img {
 	max-width: 100%;
 	height: auto;
 	display: block;
-}
-
-.title {
-	border-bottom: 1px dashed var(--colour-gold);
 }
 
 .contact-us {
@@ -337,6 +338,7 @@ img {
 		grid-template-columns: 1fr;
 		padding-left: 1rem;
 		padding-right: 1rem;
+		padding-top: 4rem;
 	}
 
 	.background-pillar {

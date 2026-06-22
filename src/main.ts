@@ -33,7 +33,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
     <div class="col-span-1">
       <h1 class="text-6xl text-center font-bold" style="color: white !important;">Praeventio AI</h1>
-        <h2 class="text-4xl text-center leading-loose font-semibold mb-6" style="color: var(--colour-gold);">'Ship with Confidence, Recover with Certainty'</h2>
+        <h2 class="text-4xl text-center leading-normal sm:leading-loose font-semibold mb-6 mt-6" style="color: var(--colour-gold);">'Ship with Confidence, Recover with Certainty'</h2>
           <p class="text-lg text-center leading-relaxed font-semibold;">The problem? Every deployment is a risk. Most teams only find out something broke after it's already broken</p>
           <p class="text-lg text-center leading-relaxed font-semibold;">The solution? Praeventio maps your blast radius before you push, and finds the root cause when something slips through.</p>
     </div>
@@ -114,10 +114,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
   <div id="about-us" class="container px-6 py-20">
     <h2 class="text-3xl font-normal text-center" style="color: var(--colour-gold);">Who We Are</h2>
-    <h2 class="text-4xl font-bold text-center" style="color: white;">About Us</h2>      <p class="text-lg mt-4 text-center">Salus Inc. was built by engineers who got tired of being paged at midnight for incidents that should never have happened. We believe the best incident is the one that never occurs.</p>
+    <h2 class="text-4xl font-bold text-center" style="color: white;">About Us</h2>
+    <p class="text-lg mt-4 text-center">Salus Inc. was built by engineers who got tired of being paged at midnight for incidents that should never have happened. We believe the best incident is the one that never occurs.</p>
     <p class="text-lg mt-4 text-center">Praeventio is our answer — a deployment intelligence platform that gives software teams the visibility they need to ship with confidence and recover with certainty.</p>
     <button class="contact-us button my-8 mx-auto rounded-lg text-2xl font-semibold" style="background-color: var(--colour-blue-2); color: var(--colour-gold); font-family: 'Playfair Display'; ">Contact Us</button>
-  </div>  
+  </div>
 
     
   <div class="bottom-strip">

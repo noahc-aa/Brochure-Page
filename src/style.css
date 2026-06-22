@@ -39,6 +39,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 }
 
+.button:hover {
+    opacity: 0.85;
+	transform: scale(1.03)
+}
+
+.button {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+	cursor: pointer;
+}
+
 .top-strip {
 	background-color: var(--colour-blue-2);
 	width: 100%;
@@ -47,14 +57,13 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box;
 	display: flex;
 	align-items: center;
-	position: relative;
 	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 .brand {
 	display: flex;
 	align-items: center;
-	gap: 0.5rem;
+	gap: 0rem;
 }
 
 .brand-logo {

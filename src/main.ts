@@ -32,9 +32,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar"/>
     </div>
     <div class="col-span-1">
-      <h1 class="text-6xl text-center font-bold" style="color: white !important;">Praeventio AI</h1>
+      <h1 class="text-8xl text-center font-bold" style="color: white !important;">Praeventio AI</h1>
         <h2 class="text-4xl text-center leading-normal sm:leading-loose font-semibold mb-6 mt-6" style="color: var(--colour-gold);">'Ship with Confidence, Recover with Certainty'</h2>
-          <p class="text-lg text-center leading-relaxed font-normal;">The problem? Every deployment is a risk. Most teams only find out something broke after it's already broken</p>
+          <p class="text-lg text-center leading-relaxed mb-8 font-normal;">The problem? Every deployment is a risk. Most teams only find out something broke after it's already broken</p>
           <p class="text-lg text-center leading-relaxed font-normal;">The solution? Praeventio maps your blast radius before you push, and finds the root cause when something slips through.</p>
     </div>
     <div class="col-span-1 self-end">

@@ -16,14 +16,14 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <a href="#about-us" class="text-lg font-semibold underline">About Us</a>
         <a href="#the-product" class="text-lg font-semibold underline">The Product</a>
         <a href="#reviews" class="text-lg font-semibold underline">Reviews</a>
-        <a href="#about-us" class="text-lg font-semibold underline">Contact Us</a>
+        <a href="#contact-us" class="text-lg font-semibold underline">Contact Us</a>
       </nav>
     </div>
     <nav class="mobile-nav-dropdown" aria-hidden="true">
       <a href="#about-us" class="mobile-nav-link" tabindex="-1">About Us</a>
       <a href="#the-product" class="mobile-nav-link" tabindex="-1">The Product</a>
       <a href="#reviews" class="mobile-nav-link" tabindex="-1">Reviews</a>
-      <a href="#about-us" class="mobile-nav-link" tabindex="-1">Contact Us</a>
+      <a href="#contact-us" class="mobile-nav-link" tabindex="-1">Contact Us</a>
     </nav>
   </div>
 

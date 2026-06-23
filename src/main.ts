@@ -16,14 +16,14 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <a href="#about-us" class="text-lg font-semibold underline">About Us</a>
         <a href="#the-product" class="text-lg font-semibold underline">The Product</a>
         <a href="#reviews" class="text-lg font-semibold underline">Reviews</a>
-        <a href="#about-us" class="text-lg font-semibold underline">Contact Us</a>
+        <a href="#contact-us" class="text-lg font-semibold underline">Contact Us</a>
       </nav>
     </div>
     <nav class="mobile-nav-dropdown" aria-hidden="true">
       <a href="#about-us" class="mobile-nav-link" tabindex="-1">About Us</a>
       <a href="#the-product" class="mobile-nav-link" tabindex="-1">The Product</a>
       <a href="#reviews" class="mobile-nav-link" tabindex="-1">Reviews</a>
-      <a href="#about-us" class="mobile-nav-link" tabindex="-1">Contact Us</a>
+      <a href="#contact-us" class="mobile-nav-link" tabindex="-1">Contact Us</a>
     </nav>
   </div>
 
@@ -32,9 +32,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="/romanpillar.png" alt="Background Pillar" class="background-pillar"/>
     </div>
     <div class="col-span-1">
-      <h1 class="text-6xl text-center font-bold" style="color: white !important;">Praeventio AI</h1>
-        <h2 class="text-4xl text-center leading-normal sm:leading-loose font-semibold mb-6 mt-6" style="color: var(--colour-gold);">'Ship with Confidence, Recover with Certainty'</h2>
-          <p class="text-lg text-center leading-relaxed font-normal;">The problem? Every deployment is a risk. Most teams only find out something broke after it's already broken</p>
+      <h1 class="text-6xl md:text-8xl text-center font-bold" style="color: white !important;">Praeventio AI</h1>
+        <h2 class="text-3xl md:text-4xl text-center leading-normal sm:leading-loose font-semibold mb-6 mt-6" style="color: var(--colour-gold);">'Ship with Confidence, Recover with Certainty'</h2>
+          <p class="text-lg text-center leading-relaxed mb-8 font-normal;">The problem? Every deployment is a risk. Most teams only find out something broke after it's already broken</p>
           <p class="text-lg text-center leading-relaxed font-normal;">The solution? Praeventio maps your blast radius before you push, and finds the root cause when something slips through.</p>
     </div>
     <div class="col-span-1 self-end">
